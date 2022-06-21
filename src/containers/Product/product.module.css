@@ -1,0 +1,186 @@
+.edit_big_block_active {
+  background: rgb(221, 216, 216);
+  transition: all 0.5s;
+  animation-name: example;
+  animation-duration: 2s;
+  height: 100px;
+}
+.tr_item:hover {
+  background: rgb(251, 15, 251);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.th_head {
+  background: rgb(179, 1, 179);
+}
+
+.th_head th {
+  color: #fff !important;
+  font-weight: 800;
+}
+
+.tr_item td {
+  padding: 20px 0 !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+.form {
+  width: 100%;
+  padding: 20px;
+}
+
+.selectMain {
+  margin-left: 0 !important;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-radius: 10px;
+  text-indent: 10px;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  transition: 100ms ease-out;
+}
+
+.edit_button {
+  transition: all 0.2s;
+  border: 1px solid purple !important;
+  padding: 5px 50px !important;
+  border-radius: 10px;
+  background: purple;
+  color: #fff;
+}
+
+.edit_button:hover {
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #202020;
+}
+.form select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-radius: 10px;
+  text-indent: 10px;
+  background: rgb(221, 216, 216);
+}
+.form select option {
+  background: rgb(221, 216, 216) !important;
+  color: black;
+}
+.button {
+  padding: 5px 50px;
+  border-radius: 10px;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+/* ===================================== */
+.image_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image_block textarea {
+  width: 100%;
+  padding: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: purple;
+  margin: 2rem 0;
+}
+
+.input::-webkit-file-upload-button {
+  width: 100%;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  padding: 6px 50px;
+  background-color: rgb(221, 216, 216);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  transition: 100ms ease-out;
+  cursor: pointer;
+}
+
+.input::-webkit-file-upload-button:hover {
+  background-color: silver;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.gabarit_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: solid 1px black;
+  background: #fff;
+}
+
+.gabarit_block input {
+  width: 20%;
+  cursor: pointer;
+  height: 20px;
+  /* margin: 10px 0;
+  padding: 5px 0;
+  border-radius: 10px;
+  text-indent: 10px; */
+  border: solid 1px black;
+  box-shadow: none;
+  transition: 100ms ease-out;
+}
+.gabarit_block lable {
+  color: Black !important;
+}
+.pagination {
+  display: flex;
+  width: 100;
+  justify-content: center;
+}
+.pagination_block {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid purple; */
+  padding: 10px;
+  min-width: 10%;
+}
+.pagination_block p {
+  font-size: 18px;
+  /* margin-left: 20px !important; */
+  cursor: pointer;
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  background: rgb(94, 92, 92);
+  color: rgb(147, 147, 147);
+  transition: all 0.5s;
+  margin-left: 10px !important;
+}
+
+.pagination_block p:hover {
+  background: purple;
+  transition: all 0.5s;
+}
+.active {
+  color: purple !important;
+}
+.active:hover {
+  color: rgb(147, 147, 147) !important;
+  background: rgb(94, 92, 92) !important;
+}

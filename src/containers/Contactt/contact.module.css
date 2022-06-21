@@ -1,0 +1,42 @@
+.title {
+  width: 100%;
+  text-align: center;
+  color: rgb(225, 0, 225);
+  margin: 1.5rem 0;
+  letter-spacing: 4px;
+}
+.input {
+  width: 100%;
+  text-indent: 10px;
+  padding: 7px 0;
+  border-radius: 10px;
+  border: 1px solid purple;
+  margin-bottom: 20px;
+  background: purple;
+  color: #ffff;
+  transition: all 0.5s;
+}
+.input::placeholder {
+  color: rgb(201, 201, 201);
+}
+.input:hover {
+  background: none;
+  transition: all 0.5s;
+}
+
+.input:focus {
+  background: none;
+  transition: all 0.5s;
+}
+.button {
+  padding: 5px 50px;
+  border-radius: 10px;
+  background: purple;
+  border: 1px solid purple;
+  color: #ffff;
+  transition: all 0.5s;
+}
+.button:hover {
+  background: none;
+  transition: all 0.5s;
+}

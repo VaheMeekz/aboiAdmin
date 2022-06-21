@@ -1,0 +1,13 @@
+.contaner_arm {
+  margin-top: 20px;
+}
+.button {
+  cursor: pointer;
+  padding: 10px 60px;
+  color: var(--txt-white);
+}
+.mainLink {
+  width: 100%;
+  color: var(--txt-color);
+  text-decoration: none;
+}

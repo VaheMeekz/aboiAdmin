@@ -1,0 +1,15 @@
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as Category } from "./Category";
+export { default as Product } from "./Product";
+export { default as Banner } from "./Banner";
+export { default as Contact } from "./Contactt";
+export { default as User } from "./Users";
+export { default as Cupon } from "./Cupon";
+export { default as Login } from "./AdminLogin";
+export { default as GifCard } from "./Gifcard";
+export { default as BlackList } from "./BlackList";
+export { default as SpecialOffer } from "./SpecialOffer";
+export { default as Delevery } from "./Delevery";
+export { default as Order } from "./Order";
+export { default as Detail } from "./Detail";

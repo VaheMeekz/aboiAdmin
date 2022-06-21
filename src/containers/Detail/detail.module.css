@@ -1,0 +1,51 @@
+.coupon_block {
+  display: flex;
+}
+.coupon_block:last-child p {
+  margin-left: 20px !important;
+}
+
+.coupon_block p {
+  border: solid;
+  padding: 12px 0px !important;
+  background: purple;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: context-menu;
+  font-size: 18px;
+  width: 500px;
+  margin: 0 0 20px 0 !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.coupon_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coupon_block p:hover {
+  background: rgb(51, 51, 51);
+  transition: all 0.5s;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+  color: rgb(183, 0, 183);
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.img_blog {
+  border: solid 1px #fff;
+  width: 20%;
+  object-fit: cover;
+}
+.img_blog img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

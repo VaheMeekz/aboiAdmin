@@ -1,0 +1,178 @@
+.name_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.name_block p {
+  font-size: 17px;
+  font-weight: 700;
+}
+.name_block button {
+  padding: 2px 23px;
+}
+.item_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= */
+.pagination {
+  display: flex;
+  width: 100;
+  justify-content: center;
+}
+.pagination_block {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid purple; */
+  padding: 10px;
+  min-width: 10%;
+}
+.pagination_block p {
+  font-size: 18px;
+  /* margin-left: 20px !important; */
+  cursor: pointer;
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  background: rgb(94, 92, 92);
+  color: rgb(147, 147, 147);
+  transition: all 0.5s;
+}
+
+.pagination_block p:hover {
+  background: purple;
+  transition: all 0.5s;
+}
+table {
+  width: 100% !important;
+}
+.active {
+  color: purple !important;
+}
+.active:hover {
+  color: rgb(147, 147, 147) !important;
+  background: rgb(94, 92, 92) !important;
+}
+.th_body:hover {
+  background-color: rgb(209, 146, 209);
+  transition: all 0.3s;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.th_bodys {
+  background-color: rgb(209, 146, 209);
+  transition: all 0.3s;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.th_bodys > td {
+  width: 50px !important;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  min-width: 200px !important;
+}
+
+.th_body td {
+  width: 50px !important;
+  padding: 25px 0;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  min-width: 200px !important;
+}
+
+.theadd {
+  background: purple;
+}
+
+.theadd > tr > th {
+  width: 50px !important;
+  padding: 10px;
+  text-align: center;
+  min-width: 200px !important;
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+.button {
+  padding: 3px 50px;
+  border-radius: 10px;
+  background: purple;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.5s;
+  border: 1px solid purple;
+  margin-left: 15px;
+}
+
+.button:hover {
+  background: none;
+  transition: all 0.5s;
+}
+
+.buttons {
+  padding: 3px 50px;
+  border-radius: 10px;
+  background: purple;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.5s;
+  border: 1px solid purple;
+  margin-left: 15px;
+}
+
+.buttons:hover {
+  background: none;
+  transition: all 0.5s;
+}
+.line {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  background: none;
+  position: relative;
+}
+
+.line i {
+  font-size: 25px;
+}
+.form_edit {
+  padding: 10px 0;
+  border-top: 1px solid #fff;
+  margin: 0rem 0 2rem !important;
+  display: flex;
+  justify-content: space-between;
+}
+.select {
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  background: purple;
+  color: #fff;
+}
+.select:last-child {
+  margin-left: 40px;
+}
+.select option {
+  border-radius: 10px !important;
+  font-size: 17px;
+  margin-bottom: 10px !important;
+  cursor: pointer;
+}
+.select option:hover {
+  background-color: grey;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: purple;
+  margin: 2rem 0;
+}

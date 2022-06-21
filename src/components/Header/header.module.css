@@ -1,0 +1,117 @@
+.header {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  /* height: 100vh; */
+  animation-name: example1;
+  animation-duration: 0.5s var(--transition-cubic);
+  width: 0%;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+.active_header {
+  width: 20%;
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 0.5s var(--transition-cubic);
+  animation-name: example2;
+  animation-duration: 0.5s var(--transition-cubic);
+  height: 100vh;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+@keyframes example2 {
+  from {
+    display: none;
+    width: 0%;
+    transform: translateX(-100%);
+  }
+  to {
+    display: block;
+    width: 20%;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes example1 {
+  to {
+    /* display: none; */
+    width: 0%;
+    transform: translateX(0%);
+  }
+  from {
+    /* display: block; */
+    width: 20%;
+    transform: translateX(-100px);
+  }
+}
+
+.header nav {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+.active_header nav {
+  width: 100%;
+  transform: translateX(0px);
+  padding: 20px;
+  opacity: 1;
+  transition: 0.5s var(--transition-cubic);
+  animation-name: example;
+  animation-duration: 0.5s var(--transition-cubic);
+  height: 100vh;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  overflow-y: scroll;
+}
+
+.ul {
+  padding: 20px !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ul li a {
+  margin-left: 10px;
+  font-size: 20px;
+  color: var(--txt-color);
+}
+.ul li {
+  margin-bottom: 0px;
+  padding: 10px 0 10px 10px;
+}
+
+.ul li:hover {
+  border-radius: var(--border-radius);
+  background-image: linear-gradient(
+    to right,
+    var(--main-color),
+    var(--second-color)
+  );
+  color: var(--txt-white);
+}
+.admin_name_block {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid var(--main-color) 2px;
+  padding: 10px;
+}
+
+.admin_name_block h2 {
+  font-size: 18px;
+}
+.censel_icone {
+  font-size: 30px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,219 @@
+.item_block {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 !important;
+  align-items: center;
+  flex-direction: column;
+}
+.img_block {
+  width: 50%;
+  object-fit: cover;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.img_block img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.button {
+  padding: 5px 50px;
+  border-radius: 10px;
+  border: 1px solid purple;
+  background: purple;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.5s;
+  margin-top: 10px;
+}
+.button:hover {
+  background: none;
+  transition: all 0.5s;
+}
+.buttons_block {
+  width: 50%;
+  text-align: start;
+  justify-content: start;
+  margin-top: 20px;
+}
+.buttons {
+  padding: 5px 50px;
+  border-radius: 10px;
+  border: 1px solid purple;
+  background: purple;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.5s;
+  margin-left: 15px !important;
+}
+.buttons:hover {
+  background: none;
+  transition: all 0.5s;
+}
+.edit_items_button {
+  padding: 8px 35px;
+  border: none;
+  background-color: aliceblue;
+  color: black;
+  transition: all 0.5s;
+  margin-top: 20px;
+}
+
+.edit_items_button:hover {
+  background: purple;
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.send_button_block {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.send_items_button {
+  padding: 8px 0;
+  width: 70%;
+  border: none;
+  background-color: aliceblue;
+  color: black;
+  transition: all 0.5s;
+  border-radius: 8px;
+  background-color: var(--main-bg);
+}
+
+.send_items_button:hover {
+  background-color: silver;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.form {
+  width: 100%;
+  margin: 30px 0;
+  border: solid 1px purple;
+  padding: 20px;
+}
+
+.form textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.form p {
+  width: 100%;
+  text-align: center;
+}
+
+/* ]================================================= */
+.image_block {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input::-webkit-file-upload-button {
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  padding: 6px 50px;
+  background-color: rgb(221, 216, 216);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  transition: 100ms ease-out;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.input::-webkit-file-upload-button:hover {
+  background-color: silver;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  transition: all 0.5s;
+}
+/* ============================= */
+input[type="date"] {
+  height: 35px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #f1edeb;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 10px;
+  color: #000;
+  box-sizing: border-box;
+}
+input[type="date"]::-webkit-datetime-edit-month-field {
+  color: #000;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+  color: #000;
+}
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: #000;
+}
+input[type="date"]::-webkit-clear-button {
+  font-size: 18px;
+  height: 30px;
+  position: relative;
+  right: 5px;
+  margin-right: 4px;
+}
+input[type="date"]::-webkit-inner-spin-button {
+  height: 30px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 18px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator :hover {
+  background-color: #2f2f2f;
+  color: #232323;
+  cursor: pointer;
+}
+input[type="date"]::-webkit-calendar-picker-indicator ::active {
+  color: blue;
+}
+/*===============================0 */
+.image_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input::-webkit-file-upload-button {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 6px 50px;
+  background-color: rgb(221, 216, 216);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  transition: 100ms ease-out;
+  cursor: pointer;
+}
+
+.input::-webkit-file-upload-button:hover {
+  background-color: silver;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}

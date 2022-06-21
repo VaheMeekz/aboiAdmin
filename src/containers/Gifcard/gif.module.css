@@ -1,0 +1,123 @@
+.image_block {
+  width: 100%;
+  position: relative;
+  height: 400px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.image_block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delete_block {
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.4s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.4s;
+}
+.big_block:hover .delete_block {
+  opacity: 1;
+  transition: all 0.4s;
+  top: 101%;
+}
+
+.image_block button {
+  padding: 5px 50px;
+  border-radius: 10px;
+}
+
+.add_button {
+  padding: 5px 50px;
+  border-radius: 10px;
+  margin: 30px 0;
+  transition: all 0.4s;
+  background: purple;
+  border: 1px solid purple;
+  color: #fff;
+}
+.add_button:hover {
+  background: none;
+  transition: all 0.4s;
+}
+
+/* ]================================================= */
+.image_block {
+  width: 100%;
+  height: 230px;
+  position: relative;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 5px 50px;
+  background: purple;
+  border: solid 1px purple;
+  color: #fff;
+}
+.button:hover {
+  background: none !important;
+  transition: all 0.5s;
+}
+
+.image_block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.input::-webkit-file-upload-button {
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  padding: 6px 50px;
+  background-color: rgb(221, 216, 216);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  transition: 100ms ease-out;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.input::-webkit-file-upload-button:hover {
+  background-color: silver;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  transition: all 0.5s;
+}
+.change_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+}
+.change_img img {
+  width: 50%;
+}
+.button {
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: purple;
+  margin: 2rem 0;
+}

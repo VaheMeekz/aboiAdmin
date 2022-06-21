@@ -1,0 +1,83 @@
+.table {
+  width: 100%;
+  border: solid 2px white;
+  text-align: center;
+}
+
+.table tr th {
+  border: solid 2px white;
+}
+
+.table tr td {
+  border: solid 2px white;
+}
+/* ============================= */
+.th_body:hover {
+  background-color: rgb(209, 146, 209);
+  transition: all 0.3s;
+  color: #fff;
+  width: 100%;
+}
+.th_bodys {
+  background-color: rgb(209, 146, 209);
+  transition: all 0.3s;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.th_bodys > td {
+  width: 50px !important;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  min-width: 200px !important;
+}
+.th_body td {
+  width: 50px !important;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  min-width: 200px !important;
+}
+.theadd {
+  background: purple;
+}
+
+.theadd > tr > th {
+  width: 50px !important;
+  padding: 10px;
+  text-align: center;
+  min-width: 200px !important;
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+.table {
+  width: 100%;
+}
+.tr_form td:hover {
+  background: none !important;
+}
+.tr_form form {
+  margin: 15px 0;
+}
+.button {
+  padding: 5px 50px;
+  border-radius: 10px;
+  background: purple;
+  border: 1px solid purple;
+  transition: all 0.5s;
+  color: #fff;
+}
+.button:hover {
+  background: var(--main-bg);
+  transition: all 0.5s;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  color: purple;
+  margin: 2rem 0;
+}

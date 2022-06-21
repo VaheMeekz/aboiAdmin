@@ -1,0 +1,103 @@
+.image_block {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input::-webkit-file-upload-button {
+  width: 100%;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  padding: 6px 50px;
+  background-color: rgb(221, 216, 216);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  transition: 100ms ease-out;
+  cursor: pointer;
+}
+
+.input::-webkit-file-upload-button:hover {
+  background-color: silver;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.buttons_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons_block button {
+  padding: 6px 50px;
+  background: none;
+  color: var(--txt-white);
+}
+
+.status_card {
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.5s ease 0s;
+  margin-bottom: 30px;
+}
+
+.status_card::before {
+  content: "";
+  width: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to top right,
+    var(--main-color),
+    var(--second-color)
+  );
+  position: absolute;
+  left: -50%;
+  top: 0;
+  transform: scale(0);
+  transition: transform 0.8s ease 0s;
+}
+
+.status_card:hover::before {
+  transform: scale(3);
+}
+
+.status_card.active::before {
+  transform: scale(3);
+}
+
+.status_card.active {
+  color: var(--txt-white);
+}
+
+.status_card:hover {
+  color: var(--txt-white);
+}
+.news_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  padding: 5px 50px;
+  border-radius: 10px;
+  background: purple;
+  border: 1px solid purple;
+  color: #fff;
+}
+.img_block {
+  width: 50%;
+}
